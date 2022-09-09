@@ -1,0 +1,120 @@
+.filme_area {
+  max-width: 1366px;
+  min-height: 80px;
+}
+
+.filme_infos {
+  max-width: 900px;
+  min-height: 900px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.filme_banner {
+  max-width: 400px;
+  max-height: 548px;
+  padding: 0;
+  background-color: #444444;
+  border-bottom: 4px solid #1363DF;
+  margin-bottom: 20px;
+}
+
+.filme_banner img {
+  width: 100%;
+  height: 544px;
+}
+
+.nome {
+  width: 100%;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tagline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.nome h1 {
+  text-align: center;
+  font-family: inter;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+.tagline h3 {
+  max-width: 300px;
+  font-family: inter;
+  font-weight: normal;
+  font-size: 15px;
+  color: #ccc;
+}
+
+.infos {
+  width: 100%;
+  min-height: 60px;
+  padding: 10px;
+}
+
+.infos_content {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.genero, .orcamento, .nota, .duracao, .producao, .receita, .descricao {
+  width: 100%;
+  display: flex;
+  flex-direction: inline;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.filmes_dados {
+  max-width: 600px;
+}
+
+p {
+  margin-right: 8px;
+  font-family: inter;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+
+span {
+  font-family: inter;
+  font-weight: normal;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+#overview {
+  font-family: inter;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+}
+
+.icon svg {
+  width: 22px;
+  height: 22px;
+  color: #1363DF;
+}
+
+ul {
+  list-style-type: none;
+}

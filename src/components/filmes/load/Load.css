@@ -1,0 +1,23 @@
+.load {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #161616;
+}
+
+.load_icon {
+  animation: is-rotating 1s infinite;
+  border: 6px solid #414141;
+  border-top-color: #1363DF;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
